@@ -1,5 +1,5 @@
 ## CV Classification 
-This repo compares multiple Machine Learning approaches for matching a candidate's CV to the role they applied for. 
+This repo compares multiple Machine Learning approaches for matching a candidate's CV to their most suitable role. 
 For this, I used the following models:
 * XLNet fine-tuned on this dataset (Masked Language Model)
 * Bisecting K-Means (Unsupervised ML)
