@@ -1,12 +1,12 @@
 ## CV Classification 
-This project aims to compare multiple Machine Learning approaches for matching a candidate's CV to the role they applied for. 
+This repo compares multiple Machine Learning approaches for matching a candidate's CV to the role they applied for. 
 For this, I used the following models:
+* XLNet fine-tuned on this dataset (Masked Language Model)
 * Bisecting K-Means (Unsupervised ML)
 * SVM (Supervised ML)
-* XLNet end-to-end, fine-tuned on this dataset (State of the Art Deep Learning)
 
-Additionally, both Bert embeddings and Tf-Idf vectorizer were used as preprocessing techniques.
-The work focused on both classification performance as well as ease of use / sensitivity to hyperparameters.
+For preprocessing techniques, I tested both Bert embeddings and Tf-Idf features.
+The work focuses on classification performance and on the reliability of training, meaning how sensitive the model’s performance is to the choice of hyperparameters.
 
 ### Dataset
 The dataset comprises approximately 2400 resumes, which are labelled according to the position the candidate is applying for. There are 24 unique candidate positions.
