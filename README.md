@@ -19,4 +19,4 @@ For this project, only the string version was used. At the time of writing, the 
 prediction evaluation metrics (F1, accuracy). Thus, the fitted models would be well "clustered", but that would prove to be a poor indicator of prediction performance.
 
 ### Technical Report containing in depth documentation of the experiments
-https://github.com/Alexandru-AndreiOana/CVClassification/blob/master/Report/TechnicalReport.pdf 
+https://github.com/Alexandru-AndreiOana/CVClassification/blob/master/TechnicalReport.pdf 
